@@ -1,0 +1,38 @@
+# Secrets and local state — never commit
+client_secret.json
+token.json
+state.db
+state.db-journal
+state.db-wal
+state.db-shm
+
+# User input (channel URLs are personal)
+input.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
